@@ -14,11 +14,6 @@ export default createGlobalStyle`
     html, body {
         width: 100%;
         height: 100%;
-        // background-image: url(${Bckground});
-        // background-repeat: no-repeat;
-        // background-size: 156% 156%;
-        // background-position: center;
-        // background-attachment: fixed;
     }
     #root {
         width: 100%;
