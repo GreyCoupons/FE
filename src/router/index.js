@@ -7,5 +7,6 @@ import Homepage from "../views/homepage";
 export default () => (
 	<Router>
 		<Route path="/" exact component={Homepage} />
+		{/* <Route path="/app-main/about-us" exact component={AboutUs} /> */}
 	</Router>
 );
