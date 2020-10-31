@@ -19,6 +19,7 @@ export default createGlobalStyle`
         width: 100%;
         height: 100%;
     }
+
 // Theme font
     p, h1, h2, h3, h4, button {
         font-family: 'Ubuntu Condensed', sans-serif;

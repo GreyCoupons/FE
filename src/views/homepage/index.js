@@ -1,13 +1,16 @@
 //imports
 import React from "react";
 
+//components
+import SearchBar from "../../components/searchBar";
+
 //style
 import Style from "./style";
 
 export default () => (
-	<Style className="page officersalary">
-		<div className="officersalary-container">
-			<h1 className="title">HELLO</h1>
+	<Style className="page homepage">
+		<div className="homepage-container">
+			<SearchBar />
 		</div>
 	</Style>
 );

@@ -20,5 +20,6 @@ export default `
         letter-spacing: 0.05em;
         padding-right: 10px;
         color: rgba(48, 49, 63, 0.8);
+        text-decoration: none;
     }
 `;
