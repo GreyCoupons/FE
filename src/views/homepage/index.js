@@ -13,8 +13,10 @@ import Style from "./style";
 export default () => (
 	<Style className="page homepage">
 		<div className="homepage-container">
-			<SearchBar />
-			<SplashImg />
+			<div className="viewheight">
+				<SearchBar />
+				<SplashImg />
+			</div>
 			<Categories />
 			<NewestCodes />
 		</div>

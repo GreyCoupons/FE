@@ -7,7 +7,7 @@ export default `
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     height: 40px;
     width: 500px;
-    margin: 65px 0 15px;
+    margin:  -80px 0 15px;
     border-radius: 55px;
 }
 .main:hover {
@@ -24,6 +24,7 @@ input{
     outline:none;
     border-radius: 50px 0 0 50px;
     font-size: 17px;
+    border-right: none;
 }
 
 textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {   

@@ -4,7 +4,6 @@ export default `
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        margin: 75px 0 0 0;
     }
     .title {
         font-family: Ubuntu;
@@ -14,7 +13,7 @@ export default `
         line-height: 44px;
         letter-spacing: 0.10em;
         color: #30313F;
-        margin: 40px 0 20px;
+        margin: 0px 0 20px;
     }
     .title2 {
         font-family: Raleway;

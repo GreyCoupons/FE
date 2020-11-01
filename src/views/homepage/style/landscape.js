@@ -5,4 +5,11 @@ export default `
         justify-content: center;
         align-items: center;
     }
+    .viewheight {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `;
