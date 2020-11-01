@@ -15,17 +15,12 @@ class TopNavbar extends Component {
 		return (
 			<Style className="page navbar">
 				<div className="navbar-container">
-					<div className="left-container">
+					<NavLink to="/" className="left-container">
 						<img src={Logo} alt="Grey Coupons" className="logo" />
-					</div>
+					</NavLink>
 					<div className="right-container">
 						<NavLink
 							to="/app-main/about-us"
-							// activeStyle={{
-							// 	borderRadius: "4px",
-							// 	backgroundColor: "#69C8FF",
-							// 	color: "#313232",
-							// }}
 							className="aboutUs"
 						>
 							About Us

@@ -22,4 +22,8 @@ export default `
         color: rgba(48, 49, 63, 0.8);
         text-decoration: none;
     }
+
+    .aboutUs:hover {
+        color: white;
+    }
 `;
