@@ -4,7 +4,7 @@ export default `
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        margin: 55px 0 0 0;
+        margin: 75px 0 0 0;
     }
     .title {
         font-family: Ubuntu;
@@ -37,5 +37,11 @@ export default `
         padding-top: 6px;
         border-bottom: 2px solid #30313F;
         margin-left: 20px;
+    }
+    .categoryTypes {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 `;

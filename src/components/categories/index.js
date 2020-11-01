@@ -5,9 +5,41 @@ import React, { Component } from "react";
 import SearchIcon from "../../assets/common/search.svg";
 //modules
 //components
+import CategoryBox from "../categorybox";
 
 //style
 import Style from "./style";
+
+let displayCategories = [
+	{
+		category: "Beauty & Personal Care",
+		categoryID: 1,
+	},
+	{
+		category: "Home & Kitchen",
+		categoryID: 2,
+	},
+	{
+		category: "Computer & Electronics",
+		categoryID: 3,
+	},
+	{
+		category: "Tools & Home Improvement",
+		categoryID: 4,
+	},
+	{
+		category: "Toys & Games",
+		categoryID: 5,
+	},
+	{
+		category: "Clothing & Shoes",
+		categoryID: 6,
+	},
+	{
+		category: "Baby Products",
+		categoryID: 7,
+	},
+];
 
 class Categories extends Component {
 	render() {
@@ -18,6 +50,11 @@ class Categories extends Component {
 					<div className="categorySection">
 						<p className="title2">Categories</p>
 						<div className="line" />
+					</div>
+					<div className="categoryTypes">
+						{displayCategories.map((type, id) => {
+							return <CategoryBox key={id} name={type.category} id={type.id} />;
+						})}
 					</div>
 				</div>
 			</Style>
