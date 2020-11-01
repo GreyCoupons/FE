@@ -5,6 +5,7 @@ import React from "react";
 import SearchBar from "../../components/searchBar";
 import SplashImg from "../../components/splashImg";
 import Categories from "../../components/categories";
+import NewestCodes from "../../components/newestcodes";
 
 //style
 import Style from "./style";
@@ -15,6 +16,7 @@ export default () => (
 			<SearchBar />
 			<SplashImg />
 			<Categories />
+			<NewestCodes />
 		</div>
 	</Style>
 );
