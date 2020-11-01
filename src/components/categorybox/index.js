@@ -11,10 +11,9 @@ import Style from "./style";
 
 class CategoryBox extends Component {
 	render() {
-		console.log(this.props);
 		return (
 			<Style className="page categorybox">
-				<div className="box">
+				<div className={`${this.props.color} box`}>
 					<p className="text">{this.props.name}</p>
 				</div>
 			</Style>

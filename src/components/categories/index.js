@@ -14,30 +14,37 @@ let displayCategories = [
 	{
 		category: "Beauty & Personal Care",
 		categoryID: 1,
+		color: "green",
 	},
 	{
 		category: "Home & Kitchen",
 		categoryID: 2,
+		color: "yellow",
 	},
 	{
 		category: "Computer & Electronics",
 		categoryID: 3,
+		color: "red",
 	},
 	{
 		category: "Tools & Home Improvement",
 		categoryID: 4,
+		color: "purple",
 	},
 	{
 		category: "Toys & Games",
 		categoryID: 5,
+		color: "green",
 	},
 	{
 		category: "Clothing & Shoes",
 		categoryID: 6,
+		color: "yellow",
 	},
 	{
 		category: "Baby Products",
 		categoryID: 7,
+		color: "red",
 	},
 ];
 
@@ -53,7 +60,14 @@ class Categories extends Component {
 					</div>
 					<div className="categoryTypes">
 						{displayCategories.map((type, id) => {
-							return <CategoryBox key={id} name={type.category} id={type.id} />;
+							return (
+								<CategoryBox
+									key={id}
+									name={type.category}
+									type={type.categoryID}
+									color={type.color}
+								/>
+							);
 						})}
 					</div>
 				</div>
