@@ -70,6 +70,7 @@ class Categories extends Component {
 							);
 						})}
 					</div>
+					<p className="seeAll">see all</p>
 				</div>
 			</Style>
 		);

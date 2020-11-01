@@ -43,5 +43,21 @@ export default `
         display: flex;
         flex-direction: row;
         justify-content: center;
+        flex-wrap: wrap;
+    }
+    .seeAll {
+        margin: 15px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+        cursor: pointer;
     }
 `;
