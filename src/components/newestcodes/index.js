@@ -57,7 +57,7 @@ class NewestCodes extends Component {
 						<p className="title2">Newest Codes</p>
 						<div className="line" />
 					</div>
-					{/* <div className="categoryTypes">
+					<div className="categoryTypes">
 						{displayCategories.map((type, id) => {
 							return (
 								<CategoryBox
@@ -69,7 +69,7 @@ class NewestCodes extends Component {
 							);
 						})}
 					</div>
-					<p className="seeAll">see all</p> */}
+					<p className="seeAll">see all</p>
 				</div>
 			</Style>
 		);
