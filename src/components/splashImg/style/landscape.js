@@ -13,5 +13,6 @@ export default `
     }
     .splash {
         z-index: 1;
+        cursor: pointer;
     }
 `;
