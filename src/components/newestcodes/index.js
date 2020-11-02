@@ -5,46 +5,17 @@ import React, { Component } from "react";
 import SearchIcon from "../../assets/common/search.svg";
 //modules
 //components
-import CategoryBox from "../categorybox";
+import ProductCard from "../../components/productcard";
 
 //style
 import Style from "./style";
 
-let displayCategories = [
+let displayProducts = [
 	{
-		category: "Beauty & Personal Care",
-		categoryID: 1,
-		color: "green",
-	},
-	{
-		category: "Home & Kitchen",
-		categoryID: 2,
-		color: "yellow",
-	},
-	{
-		category: "Computer & Electronics",
-		categoryID: 3,
-		color: "red",
-	},
-	{
-		category: "Tools & Home Improvement",
-		categoryID: 4,
-		color: "purple",
-	},
-	{
-		category: "Toys & Games",
-		categoryID: 5,
-		color: "green",
-	},
-	{
-		category: "Clothing & Shoes",
-		categoryID: 6,
-		color: "yellow",
-	},
-	{
-		category: "Baby Products",
-		categoryID: 7,
-		color: "red",
+		product: "iPhone Lighting Cable",
+		percent: "80%",
+		link: "https://amzn.to/34swNpO",
+		category: "Electronics",
 	},
 ];
 
@@ -58,15 +29,8 @@ class NewestCodes extends Component {
 						<div className="line" />
 					</div>
 					<div className="categoryTypes">
-						{displayCategories.map((type, id) => {
-							return (
-								<CategoryBox
-									key={id}
-									name={type.category}
-									type={type.categoryID}
-									color={type.color}
-								/>
-							);
+						{displayProducts.map((type, id) => {
+							return <ProductCard key={id} product={type} />;
 						})}
 					</div>
 					<p className="seeAll">see all</p>
