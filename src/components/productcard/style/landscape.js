@@ -2,9 +2,7 @@ export default `
     .box {
         width: 183px;
         height: 162px;
-        background: url(product.jpg);
         border-radius: 10px;
-        background: gray;
         cursor: pointer;
         transition: .3s ease;
         display: flex;
@@ -15,6 +13,15 @@ export default `
     }
     .box:hover {
         transform: scale(1.05);
+    }
+    .linkRedirect {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+        position: relative;
+        width: 183px;
+        height: 162px;
     }
     .Electronics {
         width: 80px;
@@ -47,10 +54,41 @@ export default `
     }
     .titleContainer {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
         padding: 5px;
     }
+    .percentContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
     .text {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        color: #FBFBFB;
+    }
+    .percent {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 14px;
+        text-align: right;
+        letter-spacing: 0.05em;
+        color: #FBFBFB;
+        padding-bottom: 4px;
+    }
+    .off {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
         font-family: Ubuntu;
         font-style: normal;
         font-weight: 500;

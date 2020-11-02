@@ -16,19 +16,25 @@ class CategoryBox extends Component {
 		return (
 			<Style className="page categorybox">
 				<div className={` box`}>
-					<div className={`${category}`}>
-						{" "}
-						<p>{category}</p>{" "}
-					</div>
-					<img
-						src="https://images-na.ssl-images-amazon.com/images/I/91o%2Bd8IiKHL._SL1500_.jpg"
-						className="productImg"
-					/>
-					<div className="bottomContainer">
-						<div className="titleContainer">
-							<p className="text">{product}</p>
+					<a href={link} target="_blank" className="linkRedirect">
+						<div className={`${category}`}>
+							{" "}
+							<p>{category}</p>{" "}
 						</div>
-					</div>
+						<img
+							src="https://images-na.ssl-images-amazon.com/images/I/91o%2Bd8IiKHL._SL1500_.jpg"
+							className="productImg"
+						/>
+						<div className="bottomContainer">
+							<div className="titleContainer">
+								<p className="text">{product}</p>
+								<div className="percentContainer">
+									<p className="percent">{percent} </p>
+									<p className="off">OFF </p>
+								</div>
+							</div>
+						</div>
+					</a>
 				</div>
 			</Style>
 		);

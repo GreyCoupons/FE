@@ -13,7 +13,7 @@ import Style from "./style";
 let displayProducts = [
 	{
 		product: "iPhone Lighting Cable",
-		percent: "80%",
+		percent: "74%",
 		link: "https://amzn.to/34swNpO",
 		category: "Electronics",
 	},
