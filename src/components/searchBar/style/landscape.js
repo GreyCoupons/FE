@@ -7,7 +7,7 @@ export default `
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     height: 40px;
     width: 500px;
-    margin:  -80px 0 15px;
+    margin:  35px 0 15px;
     border-radius: 55px;
 }
 .main:hover {
