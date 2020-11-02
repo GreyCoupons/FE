@@ -13,13 +13,13 @@ export default `
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
         transition: .3s ease;
 
-        @media (max-width: 1127px) {
+        @media (max-width: 1135px) {
             height: 200px;
-    }    
+        }    
     }
     .splash {
         z-index: 1;
         cursor: pointer;
-        width: 100%;
+        width: 86%;
     }
 `;
