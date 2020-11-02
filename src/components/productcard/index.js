@@ -10,21 +10,28 @@ import SearchIcon from "../../assets/common/search.svg";
 import Style from "./style";
 
 class CategoryBox extends Component {
+	state = { color: "" };
+	componentDidMount() {
+		let { category } = this.props.product;
+		if (category === "Clothing & Shoes") {
+			this.setState({ color: "yellow" });
+		}
+		if (category === "Electronics") {
+			this.setState({ color: "red" });
+		}
+	}
 	render() {
-		let { product, percent, link, category } = this.props.product;
-		console.log(this.props);
+		let { product, percent, link, category, image } = this.props.product;
+		let { color } = this.state;
 		return (
 			<Style className="page categorybox">
 				<div className={` box`}>
 					<a href={link} target="_blank" className="linkRedirect">
-						<div className={`${category}`}>
+						<div className={`${color}`}>
 							{" "}
 							<p>{category}</p>{" "}
 						</div>
-						<img
-							src="https://images-na.ssl-images-amazon.com/images/I/91o%2Bd8IiKHL._SL1500_.jpg"
-							className="productImg"
-						/>
+						<img src={image} className="productImg" />
 						<div className="bottomContainer">
 							<div className="titleContainer">
 								<p className="text">{product}</p>

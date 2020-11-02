@@ -16,6 +16,15 @@ let displayProducts = [
 		percent: "74%",
 		link: "https://amzn.to/34swNpO",
 		category: "Electronics",
+		image:
+			"https://images-na.ssl-images-amazon.com/images/I/91o%2Bd8IiKHL._SL1500_.jpg",
+	},
+	{
+		product: "Boots!",
+		percent: "55%",
+		link: "https://amzn.to/2TOHk8A",
+		category: "Clothing & Shoes",
+		image: "https://m.media-amazon.com/images/I/41aIdanahmL._SR400,400_.jpg",
 	},
 ];
 

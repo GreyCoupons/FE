@@ -10,6 +10,7 @@ export default `
         justify-content: space-between;
         overflow: hidden;
         position: relative;
+        margin: 0 15px;
     }
     .box:hover {
         transform: scale(1.05);
@@ -23,10 +24,28 @@ export default `
         width: 183px;
         height: 162px;
     }
-    .Electronics {
+    .yellow {
         width: 80px;
         height: 26px;
         background: rgba(184, 158, 65, 0.8);
+        border-radius: 10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 11px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FBFBFB;
+        z-index: 1;
+    }
+    .red {
+        width: 80px;
+        height: 26px;
+        background: rgba(146, 32, 29, 0.8);
         border-radius: 10px 0px;
         display: flex;
         justify-content: center;
@@ -54,7 +73,7 @@ export default `
     }
     .titleContainer {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         height: 100%;
         padding: 5px;
