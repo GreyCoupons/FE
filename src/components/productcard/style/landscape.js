@@ -25,8 +25,8 @@ export default `
         height: 236px;
     }
     .yellow {
-        width: 80px;
-        height: 26px;
+        width: 160px;
+        height: 46px;
         background: rgba(184, 158, 65, 0.8);
         border-radius: 10px 0px;
         display: flex;
@@ -35,7 +35,7 @@ export default `
         font-family: Ubuntu;
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 11px;
         text-align: center;
         letter-spacing: 0.05em;
@@ -43,8 +43,8 @@ export default `
         z-index: 1;
     }
     .red {
-        width: 80px;
-        height: 26px;
+        width: 160px;
+        height: 46px;
         background: rgba(146, 32, 29, 0.8);
         border-radius: 10px 0px;
         display: flex;
@@ -53,7 +53,7 @@ export default `
         font-family: Ubuntu;
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 11px;
         text-align: center;
         letter-spacing: 0.05em;
