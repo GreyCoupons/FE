@@ -1,7 +1,7 @@
 export default `
     .box {
-        width: 183px;
-        height: 162px;
+        width: 288px;
+        height: 236px;
         border-radius: 10px;
         cursor: pointer;
         transition: .3s ease;
@@ -21,8 +21,8 @@ export default `
         justify-content: space-between;
         overflow: hidden;
         position: relative;
-        width: 183px;
-        height: 162px;
+        width: 288px;
+        height: 236px;
     }
     .yellow {
         width: 80px;
@@ -61,15 +61,22 @@ export default `
         z-index: 1;
     }
     .bottomContainer {
-        width: 183px;
+        width: 288px;
         height: 60px;
         background: rgba(48, 49, 63, 0.6);
         border-radius: 0px 0px 10px 10px;
         z-index: 1;
     }
+    .imgContainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
     .productImg {
         position: absolute;
-        width: 100%;
+        width: 80%;
     }
     .titleContainer {
         display: flex;

@@ -31,7 +31,9 @@ class CategoryBox extends Component {
 							{" "}
 							<p>{category}</p>{" "}
 						</div>
-						<img src={image} className="productImg" />
+						<div className="imgContainer">
+							<img src={image} className="productImg" />
+						 </div>
 						<div className="bottomContainer">
 							<div className="titleContainer">
 								<p className="text">{product}</p>
