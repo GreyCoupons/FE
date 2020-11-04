@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 
 //assets
-import splash from "../../assets/homepage/arrow.svg";
+import gc_mode from "../../assets/homepage/gc_mode.svg";
 //modules
 //components
 
@@ -22,7 +22,7 @@ class SplashImg extends Component {
 			<Style className="page splash">
 				<div className="mainContainer">
 					<div className="yellowBar" />
-					<img src={splash} className="splash" onClick={executeScroll} />
+					<img src={gc_mode} className="splash" onClick={executeScroll} />
 				</div>
 			</Style>
 		);

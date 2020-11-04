@@ -36,7 +36,10 @@ class CategoryBox extends Component {
 						 </div>
 						<div className="bottomContainer">
 							<div className="titleContainer">
-								<p className="text">{product}</p>
+								<div className="percentContainer"> 
+									<p className="productText">{product}</p>
+									{/* <p className="productText">$21 - $55</p> */}
+								</div>
 								<div className="percentContainer">
 									<p className="percent">{percent} </p>
 									<p className="off">OFF </p>

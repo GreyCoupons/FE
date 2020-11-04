@@ -88,7 +88,7 @@ export default `
     .percentContainer {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;    
     }
     .text {
@@ -99,6 +99,16 @@ export default `
         line-height: 14px;
         letter-spacing: 0.05em;
         color: #FBFBFB;
+    }
+    .productText {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        color: #FBFBFB;
+        width: 100%;
     }
     .percent {
         font-family: Ubuntu;
