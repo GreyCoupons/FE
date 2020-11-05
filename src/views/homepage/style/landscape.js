@@ -4,12 +4,13 @@ export default `
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
     .viewheight {
-        // height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 90%;
     }
 `;

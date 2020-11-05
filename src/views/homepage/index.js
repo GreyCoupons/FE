@@ -2,8 +2,7 @@
 import React from "react";
 
 //components
-import SearchBar from "../../components/searchBar";
-import SplashImg from "../../components/splashImg";
+import DealofDay from "../../components/dealofday";
 import Categories from "../../components/categories";
 import NewestCodes from "../../components/newestcodes";
 
@@ -14,8 +13,7 @@ export default () => (
 	<Style className="page homepage">
 		<div className="homepage-container">
 			<div className="viewheight">
-				<SearchBar />
-				<SplashImg />
+				<DealofDay />
 			</div>
 			<Categories />
 			<NewestCodes />
