@@ -15,7 +15,6 @@ export default () => (
 			<div className="viewheight">
 				<DealofDay />
 			</div>
-			<Categories />
 			<NewestCodes />
 		</div>
 	</Style>
