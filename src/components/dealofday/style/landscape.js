@@ -55,11 +55,16 @@ export default `
         border-bottom: 2px solid #30313F;
     }
     .imgContainer {
-        width: 100%;
-        height: 100%;
+        width: 554px;
+        height: 440px;
         display: flex;
         justify-content: center;
         align-items: flex-start;
+
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .categoryTypes {
         width: 100%;
@@ -91,9 +96,7 @@ export default `
         align-items: flex-start;  
     }
     .productImg {
-        border-radius: 10px;
-        width: 524px;
-        height: 440px;
+        width: 100%;
     }
     .discountedPrice {
         font-family: Ubuntu;
