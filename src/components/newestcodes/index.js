@@ -42,7 +42,6 @@ class NewestCodes extends Component {
 							return <ProductCard key={id} product={type} />;
 						})}
 					</div>
-					<p className="seeAll">see all</p>
 				</div>
 			</Style>
 		);
