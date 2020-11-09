@@ -34,7 +34,7 @@ class NewestCodes extends Component {
 			<Style className="page search">
 				<div className="main">
 					<div className="newestSection">
-						<p className="title2">Newest Codes</p>
+						<p className="title2">Other Deals</p>
 						<div className="line" />
 					</div>
 					<div className="categoryTypes">
