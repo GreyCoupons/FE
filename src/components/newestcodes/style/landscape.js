@@ -4,7 +4,6 @@ export default `
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        margin: 75px 0 0 0;
     }
     .title {
         font-family: Ubuntu;

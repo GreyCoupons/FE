@@ -4,7 +4,7 @@ export default `
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 20px 0;
+        margin: 80px 0 0 0;
     }
     .row {
         display: flex;
@@ -94,6 +94,58 @@ export default `
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;  
+        margin: 0 auto;
+    }
+    .buttonContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    button {
+
+        /* inherit font & color from ancestor */
+        color: inherit;
+        font: inherit;
+
+        line-height: normal;
+
+        /* Corrects font smoothing for webkit */
+        -webkit-font-smoothing: inherit;
+        -moz-osx-font-smoothing: inherit;
+
+        -webkit-appearance: none;
+
+        width: 201px;
+        height: 42px;
+
+        background: rgba(97, 90, 156, 0.8);
+        border-radius: 11px;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 160.4%;
+        /* identical to box height, or 32px */
+
+        text-align: center;
+        letter-spacing: 0.1em;
+        margin: 25px 0;
+        color: #FBFBFB;
+        cursor: pointer;
+        border: none;
+        transition: .3s ease;
+    }
+
+    button:hover,
+    button:focus {
+        border: none;
+        outline:none;
+        background: #8F86DE;
+    }
+    button:active {
+        background: #3C357A;
+        transform: scale(0.95);
     }
     .productImg {
         width: 100%;

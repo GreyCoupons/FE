@@ -56,6 +56,9 @@ class DealofDay extends Component {
 									</p>
 								</div>
 							</div>
+							<div className="buttonContainer">
+								<button>Learn More</button>
+							</div>
 						</div>
 						<div className="imgContainer">
 							<img src={displayProducts[0].image} className="productImg" />
