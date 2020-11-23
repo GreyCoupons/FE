@@ -63,7 +63,7 @@ export default `
     .bottomContainer {
         width: 288px;
         height: 60px;
-        background: rgba(48, 49, 63, 0.6);
+        background: rgba(48, 49, 63, 0.756);
         border-radius: 0px 0px 10px 10px;
         z-index: 1;
     }
@@ -83,13 +83,21 @@ export default `
         justify-content: space-between;
         align-items: center;
         height: 100%;
-        padding: 5px;
+        padding: 8px 5px;
     }
     .percentContainer {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;    
+        align-items: center; 
+        width: 100%;   
+    }
+    .percentContainerEnd {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center; 
+        width: 20%;   
     }
     .text {
         font-family: Ubuntu;
@@ -111,6 +119,10 @@ export default `
         width: 100%;
     }
     .percent {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        padding-right: 5px;
         font-family: Ubuntu;
         font-style: normal;
         font-weight: normal;
@@ -123,7 +135,8 @@ export default `
     }
     .off {
         display: flex;
-        justify-content: flex-start;
+        justify-content: flex-end;
+        padding-right: 20px;
         width: 100%;
         font-family: Ubuntu;
         font-style: normal;
@@ -132,5 +145,36 @@ export default `
         line-height: 14px;
         letter-spacing: 0.05em;
         color: #FBFBFB;
+    }
+    .prductPriceDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 5px;
+        width: 100%;
+    }
+    .productTextogPrice {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        width: 100%;
+        text-decoration-line: line-through;
+        color: #E1C972;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .productTextDiscounted {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        padding-right: 10px;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
     }
 `;
