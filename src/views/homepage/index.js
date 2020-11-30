@@ -12,10 +12,8 @@ import Style from "./style";
 export default () => (
 	<Style className="page homepage">
 		<div className="homepage-container">
-			<div className="viewheight">
-				<DealofDay />
-			</div>
-			<NewestCodes />
+			<div className="viewheight">{/* <DealofDay /> */}</div>
+			{/* <NewestCodes /> */}
 		</div>
 	</Style>
 );

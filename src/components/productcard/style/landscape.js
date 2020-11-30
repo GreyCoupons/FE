@@ -130,7 +130,7 @@ export default `
         line-height: 14px;
         text-align: right;
         letter-spacing: 0.05em;
-        color: #FBFBFB;
+        color: #E1C972;
         padding-bottom: 4px;
     }
     .off {
@@ -144,7 +144,7 @@ export default `
         font-size: 13px;
         line-height: 14px;
         letter-spacing: 0.05em;
-        color: #FBFBFB;
+        color: #E1C972;
     }
     .prductPriceDiv {
         display: flex;
@@ -157,11 +157,11 @@ export default `
         font-family: Ubuntu;
         font-style: normal;
         font-weight: 500;
-        font-size: 15px;
+        font-size: 16px;
         letter-spacing: 0.05em;
         width: 100%;
         text-decoration-line: line-through;
-        color: #E1C972;
+        color: white;
         display: flex;
         justify-content: flex-start;
     }
