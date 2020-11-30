@@ -4,21 +4,31 @@ export default `
     }
     .mobileView {
         width: 100%;
+        height: 100%;
     }
     .navbar-container {
         width: 100%;
         height: 60px;
-        padding: 0 15px;
         display: flex;
         align-items: center;
         background: #FBFBFB;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+    }
+    .selected {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #E1C972;
+        width: 100%;
+        height: 100%;
     }
     .dashboardContainer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
+        height: 100%;
     }
     .dashboardText {
         font-style: normal;
@@ -33,10 +43,24 @@ export default `
         justify-content: center;
         align-items: center;
     }
+    .whiteText {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        padding-right: 10px;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .navContainer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 `;

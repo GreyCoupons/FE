@@ -12,6 +12,10 @@ import MobileDashboard from "./mobile-dashboard";
 import Style from "./style";
 
 class BottomNavbar extends Component {
+	state = {
+		Featured: true,
+		Explore: false,
+	};
 	render() {
 		return (
 			<Style className="page navbar">
@@ -28,7 +32,7 @@ class BottomNavbar extends Component {
 						</div>
 					</div>
 					<div className="mobileView">
-						<MobileDashboard />
+						<MobileDashboard toggled={this.state} />
 					</div>
 				</div>
 			</Style>
