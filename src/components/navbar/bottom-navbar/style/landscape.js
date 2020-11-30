@@ -8,6 +8,9 @@ export default `
         align-items: center;
         margin: 20px 0 0;
     }
+    .mobileView {
+        display: none;
+    }
     .logo {
         width: 178px;
         display: flex;
