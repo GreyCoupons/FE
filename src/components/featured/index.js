@@ -32,9 +32,11 @@ class DealofDay extends Component {
 		return (
 			<Style className="page search">
 				<div className="main">
-					<p className="title">Spicy Items</p>
-					{/* <div className="line" />
-					<div className="infoContainer">
+					<div className="header">
+						<p className="title">Featured Items</p>
+						<div className="line" />
+					</div>
+					{/*<div className="infoContainer">
 						<div className="leftContainer">
 							<div className="categorySection">
 								<p className="title2">{displayProducts[0].product}</p>
