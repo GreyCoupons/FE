@@ -10,19 +10,15 @@ export default `
         font-family: Ubuntu;
         font-style: normal;
         font-weight: 550;
-        font-size: 38px;
+        font-size: 25px;
         line-height: 44px;
         letter-spacing: 0.10em;
         color: rgba(48, 49, 63, 0.8);
-        width: 100%;
+        width: 60%;
         display: flex;
         justify-content: flex-start;
         padding-left: 10px;
-    }
-    .line {
-        width: 80%;
-        height: 0;
-        border-bottom: 2px solid rgba(48, 49, 63, 0.8);
+        // border-bottom: 2px solid rgba(48, 49, 63, 0.8);
     }
     .header {
         width: 100%;
