@@ -16,6 +16,7 @@ import WhiteCompass from "../../../assets/homepage/whiteCompass.svg";
 import Style from "./style";
 
 class MobileDashboard extends Component {
+	toggleNav() {}
 	render() {
 		let { Featured, Explore } = this.props.toggled;
 		return (
@@ -27,7 +28,10 @@ class MobileDashboard extends Component {
 							Featured{" "}
 						</p>
 					</div>
-					<div className={Explore ? "selected" : "navContainer"}>
+					<div
+						className={Explore ? "selected" : "navContainer"}
+						onClick={this.toggleNav}
+					>
 						<img src={Explore ? WhiteCompass : compass} alt="compass" />
 						<p className={Explore ? "whiteText" : "dashboardText"}>Explore</p>
 					</div>

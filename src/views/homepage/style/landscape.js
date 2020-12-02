@@ -14,4 +14,7 @@ export default `
         align-items: center;
         width: 90%;
     }
+    .mobileView {
+        display: none;
+    }
 `;
