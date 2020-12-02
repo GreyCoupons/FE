@@ -32,7 +32,7 @@ class DealofDay extends Component {
 		return (
 			<Style className="page search">
 				<div className="main">
-					<p className="title">Deal of the Day</p>
+					<p className="title">Spicy Items</p>
 					{/* <div className="line" />
 					<div className="infoContainer">
 						<div className="leftContainer">

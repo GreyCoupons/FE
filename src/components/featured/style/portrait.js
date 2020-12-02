@@ -4,7 +4,6 @@ export default `
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 15px 0 0 0;
         width: 100%;
     }
     .title {
@@ -18,6 +17,5 @@ export default `
         width: 100%;
         display: flex;
         justify-content: flex-start;
-        // margin: 0px 0 20px;
     }
 `;
