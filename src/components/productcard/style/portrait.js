@@ -1,7 +1,7 @@
 export default `
     .box {
         width: 288px;
-        height: 236px;
+        height: auto;
         border-radius: 10px;
         cursor: pointer;
         transition: .3s ease;
@@ -61,22 +61,22 @@ export default `
         z-index: 1;
     }
     .bottomContainer {
-        width: 288px;
-        height: 60px;
+        // width: 288px;
+        // height: 60px;
         background: rgba(48, 49, 63, 0.756);
         border-radius: 0px 0px 10px 10px;
         z-index: 1;
     }
     .imgContainer {
         width: 100%;
-        height: 100%;
+        height: 40%;
         display: flex;
         justify-content: center;
         align-items: flex-start;
     }
     .productImg {
-        position: absolute;
-        width: 80%;
+        // position: absolute;
+        width: 60%;
     }
     .titleContainer {
         display: flex;

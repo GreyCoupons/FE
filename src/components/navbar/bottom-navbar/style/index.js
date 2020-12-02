@@ -3,8 +3,7 @@ import landscape from "./landscape";
 import portrait from "./portrait";
 
 export default Styled.nav`
-
-    height: 100%;
+    height: 60px;
     @media (orientation: landscape) {
         ${landscape}
     }
