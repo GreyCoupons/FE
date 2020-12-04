@@ -10,7 +10,10 @@ export default `
         justify-content: space-between;
         overflow: hidden;
         position: relative;
-        margin: 0 15px;
+        margin: 25px auto;
+        background: white;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        padding-top: 10px;
     }
     .box:hover {
         transform: scale(1.05);
