@@ -10,9 +10,9 @@ export default `
         justify-content: space-between;
         overflow: hidden;
         position: relative;
-        margin: 25px auto;
+        margin: 25px;
         background: white;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
         padding-top: 10px;
     }
     .box:hover {
@@ -101,6 +101,7 @@ export default `
         justify-content: flex-start;
         align-items: center; 
         width: 20%;   
+        padding-top: 10px;
     }
     .text {
         font-family: Ubuntu;
@@ -115,11 +116,12 @@ export default `
         font-family: Ubuntu;
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 16.5px;
         line-height: 14px;
         letter-spacing: 0.05em;
         color: #FBFBFB;
         width: 100%;
+        padding: 5px 0 5px 5px;
     }
     .percent {
         display: flex;
@@ -133,7 +135,7 @@ export default `
         line-height: 14px;
         text-align: right;
         letter-spacing: 0.05em;
-        color: #E1C972;
+        color: white;
         padding-bottom: 4px;
     }
     .off {
@@ -147,7 +149,7 @@ export default `
         font-size: 13px;
         line-height: 14px;
         letter-spacing: 0.05em;
-        color: #E1C972;
+        color: white;
     }
     .prductPriceDiv {
         display: flex;
@@ -176,7 +178,7 @@ export default `
         line-height: 14px;
         letter-spacing: 0.05em;
         padding-right: 10px;
-        color: white;
+        color: #ffe78f;
         display: flex;
         justify-content: flex-start;
     }
