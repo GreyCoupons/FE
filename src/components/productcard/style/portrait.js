@@ -94,7 +94,7 @@ export default `
         flex-direction: column;
         justify-content: flex-start;
         align-items: center; 
-        width: 100%;   
+        width: 66%;   
     }
     .percentContainerEnd {
         display: flex;
@@ -123,6 +123,9 @@ export default `
         color: #FBFBFB;
         width: 100%;
         padding: 5px 0 5px 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .percent {
         display: flex;
@@ -163,22 +166,25 @@ export default `
         font-family: Ubuntu;
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 14px;
         letter-spacing: 0.05em;
         width: 100%;
         text-decoration-line: line-through;
         color: white;
         display: flex;
         justify-content: flex-start;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .productTextDiscounted {
         font-family: Ubuntu;
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 17px;
         line-height: 14px;
         letter-spacing: 0.05em;
-        padding-right: 10px;
+        padding-right: 5px;
         color: #ffe78f;
         display: flex;
         justify-content: flex-start;

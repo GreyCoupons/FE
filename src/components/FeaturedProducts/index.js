@@ -72,11 +72,11 @@ class NewestCodes extends Component {
                             return <ProductCard key={id} product={type} />;
                         })}
                     </div>
-                    <BottomScrollListener onBottom={this.handleOnDocumentBottom}>
+                    {/* <BottomScrollListener onBottom={this.handleOnDocumentBottom}>
                         <div className={this.state.loadMore}>
                             <button >Load More</button>
                         </div>
-                    </BottomScrollListener>
+                    </BottomScrollListener> */}
                 </div>
             </Style>
         );
