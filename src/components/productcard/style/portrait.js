@@ -1,6 +1,6 @@
 export default `
     .box {
-        width: 240px;
+        width: 210px;
         height: auto;
         border-radius: 10px;
         cursor: pointer;
@@ -10,7 +10,7 @@ export default `
         justify-content: space-between;
         overflow: hidden;
         position: relative;
-        margin: 25px;
+        margin: 7px;
         background: white;
         filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
         padding-top: 10px;

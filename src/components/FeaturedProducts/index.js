@@ -1,5 +1,6 @@
 //imports
 import React, { Component } from "react";
+import { BottomScrollListener } from 'react-bottom-scroll-listener';
 
 //assets
 import SearchIcon from "../../assets/common/search.svg";
@@ -51,6 +52,13 @@ let displayProducts = [
 ];
 
 class NewestCodes extends Component {
+    state = {
+        loadMore: ""
+    }
+    handleOnDocumentBottom = () => {
+        this.setState({ loadMore: "loadMore" })
+        console.log(this.state.loadMore)
+    };
     render() {
         return (
             <Style className="page search">
@@ -64,6 +72,11 @@ class NewestCodes extends Component {
                             return <ProductCard key={id} product={type} />;
                         })}
                     </div>
+                    <BottomScrollListener onBottom={this.handleOnDocumentBottom}>
+                        <div className={this.state.loadMore}>
+                            <button >Load More</button>
+                        </div>
+                    </BottomScrollListener>
                 </div>
             </Style>
         );

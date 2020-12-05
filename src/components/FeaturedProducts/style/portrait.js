@@ -4,8 +4,15 @@ export default `
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-            margin: 10px 0 40px;
-            overflow: hidden;
+        margin: 10px 0 40px;
+        overflow: hidden;
+    }
+    .loadMore {
+        opacity: 1;
+        z-index: 4;
+        position: absolute;
+        bottom: 20px;
+        transition: .3s ease;
     }
     .title {
         font-family: Ubuntu;
