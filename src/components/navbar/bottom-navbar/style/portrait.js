@@ -7,15 +7,14 @@ export default `
         overflow: hidden;
         position: fixed;
         bottom: 0px;
-        flex-shrink: 0;
+        background: #FBFBFB;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
     }
     .navbar-container {
         width: 100%;
         bottom: 0px;
         display: flex;
         align-items: center;
-        background: #FBFBFB;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
     }
     .selected {
         display: flex;
