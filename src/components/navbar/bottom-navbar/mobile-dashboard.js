@@ -16,29 +16,29 @@ import WhiteCompass from "../../../assets/homepage/whiteCompass.svg";
 import Style from "./style";
 
 class MobileDashboard extends Component {
-	toggleNav() {}
-	render() {
-		let { Featured, Explore } = this.props.toggled;
-		return (
-			<Style className="page navbar">
-				<div className="dashboardContainer">
-					<div className={Featured ? "selected" : "navContainer"}>
-						<img src={Featured ? WhitePepper : Pepper} alt="pepper" />
-						<p className={Featured ? "whiteText" : "dashboardText"}>
-							Featured{" "}
-						</p>
-					</div>
-					<div
-						className={Explore ? "selected" : "navContainer"}
-						onClick={this.toggleNav}
-					>
-						<img src={Explore ? WhiteCompass : compass} alt="compass" />
-						<p className={Explore ? "whiteText" : "dashboardText"}>Explore</p>
-					</div>
-				</div>
-			</Style>
-		);
-	}
+    toggleNav() { }
+    render() {
+        let { Featured, Explore } = this.props.toggled;
+        return (
+            <Style className="page navbar">
+                <div className="dashboardContainer">
+                    <div className={Featured ? "selected" : "navContainer"}>
+                        <img src={Featured ? WhitePepper : Pepper} alt="pepper" />
+                        <p className={Featured ? "whiteText" : "dashboardText"}>
+                            Featured{" "}
+                        </p>
+                    </div>
+                    <div
+                        className={Explore ? "selected" : "navContainer"}
+                        onClick={this.toggleNav}
+                    >
+                        <img src={Explore ? WhiteCompass : compass} alt="compass" />
+                        <p className={Explore ? "whiteText" : "dashboardText"}>Explore</p>
+                    </div>
+                </div>
+            </Style>
+        );
+    }
 }
 
 export default MobileDashboard;

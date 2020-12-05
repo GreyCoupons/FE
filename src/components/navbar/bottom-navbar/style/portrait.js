@@ -3,10 +3,8 @@ export default `
         display: none;
     }
     .mobileView {
-        width: 100%;  
-        min-height: 100vh;
-        min-height: -webkit-fill-available;
-        position: sticky;
+        width: 100%;  height: calc(var(--vh, 1vh) * 100);
+
     }
     .navbar-container {
         width: 100%;
