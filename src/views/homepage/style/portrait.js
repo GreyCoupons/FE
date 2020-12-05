@@ -4,6 +4,9 @@ export default `
         height: 100vh;
         overflow: scroll;
         overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-stop: normal;
+
     }
 
     .mobileView::-webkit-scrollbar {

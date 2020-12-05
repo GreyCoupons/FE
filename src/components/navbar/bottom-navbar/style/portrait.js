@@ -8,7 +8,7 @@ export default `
         position: fixed;
         bottom: 0px;
         background: #FBFBFB;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
     }
     .navbar-container {
         width: 100%;
