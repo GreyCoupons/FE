@@ -1,6 +1,6 @@
 export default `
     .box {
-        width: 210px;
+        width: 190px;
         height: auto;
         border-radius: 10px;
         cursor: pointer;
@@ -25,7 +25,7 @@ export default `
         overflow: hidden;
         position: relative;
         width: 100%;
-        height: 236px;
+        height: auto;
     }
     .yellow {
         width: 160px;
@@ -74,6 +74,7 @@ export default `
         width: 100%;
         height: 40%;
         display: flex;
+        padding: 10px 0;
         justify-content: center;
         align-items: flex-start;
     }
