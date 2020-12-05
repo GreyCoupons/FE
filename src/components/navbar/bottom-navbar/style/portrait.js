@@ -3,13 +3,15 @@ export default `
         display: none;
     }
     .mobileView {
-        width: 100%;         height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
-        height: calc(var(--vh, 1vh) * 100);
+        width: 100%;  
         overflow: hidden;
+        position: fixed;
+        bottom: 0px;
+        flex-shrink: 0;
     }
     .navbar-container {
         width: 100%;
-
+        bottom: 0px;
         display: flex;
         align-items: center;
         background: #FBFBFB;
