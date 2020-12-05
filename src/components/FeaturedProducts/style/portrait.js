@@ -1,7 +1,7 @@
 export default `
     .main {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start;
         margin: 10px 0 40px;
