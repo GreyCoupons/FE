@@ -39,7 +39,7 @@ export default `
         margin-left: 20px;
     }
     .categoryTypes {
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;

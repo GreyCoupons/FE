@@ -1,6 +1,6 @@
 export default `
     .box {
-        width: 288px;
+        width: 240px;
         height: auto;
         border-radius: 10px;
         cursor: pointer;
@@ -24,7 +24,7 @@ export default `
         justify-content: space-between;
         overflow: hidden;
         position: relative;
-        width: 288px;
+        width: 100%;
         height: 236px;
     }
     .yellow {

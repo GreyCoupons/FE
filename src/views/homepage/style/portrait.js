@@ -1,7 +1,6 @@
 export default `
     .mobileView {
         display: block;
-        margin: 15px 0;
         height: 100vh;
         overflow: scroll;
         overflow-x: hidden;
