@@ -24,6 +24,7 @@ export default `
         background: #E1C972;
         width: 100%;
         height: 100%;
+        transition: .3s ease;
     }
     .dashboardContainer {
         display: flex;
@@ -44,6 +45,7 @@ export default `
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: .3s ease;
     }
     .whiteText {
         font-style: normal;

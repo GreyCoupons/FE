@@ -15,7 +15,7 @@ class DealofDay extends Component {
             <Style className="page search">
                 <div className="main fadeIn">
                     <div className="header">
-                        <p className="title">Featured Items</p>
+                        <p className="title">Explore</p>
                     </div>
                     <FeaturedProducts />
                 </div>

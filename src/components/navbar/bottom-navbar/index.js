@@ -46,7 +46,7 @@ class BottomNavbar extends Component {
                         </div>
                     </div>
                     <div className="mobileView">
-                        <MobileDashboard toggled={this.state} />
+                        <MobileDashboard toggled={this.state} view={this.props.view} toggleView={this.props.toggleView} />
                     </div>
                 </div>
             </Style>
