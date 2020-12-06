@@ -6,7 +6,7 @@ export default `
         overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
         scroll-snap-stop: normal;
-
+        background: white;
     }
 
     .mobileView::-webkit-scrollbar {
