@@ -27,4 +27,9 @@ export default `
         align-items: flex-start;
         justify-content: flex-start;
     }
+    .splashImg{
+        width: 100%;
+        background: url(hero_grey_coupon.png);
+        filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.4));
+    }
 `;

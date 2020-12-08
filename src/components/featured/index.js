@@ -2,10 +2,11 @@
 import React, { Component } from "react";
 
 //assets
+import Splash from "../../assets/homepage/gc_mode.svg"
 //modules
 //components
 import FeaturedProducts from "../FeaturedProducts";
-
+import SearchBar from "../searchBar"
 //style
 import Style from "./style";
 
@@ -15,8 +16,9 @@ class DealofDay extends Component {
             <Style className="page search">
                 <div className="main fadeIn">
                     <div className="header">
-                        <p className="title">Featured Items</p>
+                        <img className="splashImg" src={Splash} alt="hand picked items" />
                     </div>
+                    <SearchBar />
                     <FeaturedProducts />
                 </div>
             </Style>
