@@ -7,6 +7,8 @@ import Splash from "../../assets/homepage/gc_mode.svg"
 //components
 import FeaturedProducts from "../FeaturedProducts";
 import SearchBar from "../searchBar"
+import SplashImg from "../splashImg"
+
 //style
 import Style from "./style";
 
@@ -15,9 +17,7 @@ class DealofDay extends Component {
         return (
             <Style className="page search">
                 <div className="main fadeIn">
-                    <div className="header">
-                        <img className="splashImg" src={Splash} alt="hand picked items" />
-                    </div>
+                    <SplashImg />
                     <SearchBar />
                     <FeaturedProducts />
                 </div>
