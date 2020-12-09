@@ -8,6 +8,7 @@ import gc_mode from "../../assets/homepage/gc_mode.svg";
 
 //style
 import Style from "./style";
+import { withRouter } from "react-router-dom";
 
 const executeScroll = () => {
     window.scrollTo({
@@ -29,4 +30,4 @@ class SplashImg extends Component {
     }
 }
 
-export default SplashImg;
+export default withRouter(SplashImg);

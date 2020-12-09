@@ -18,8 +18,6 @@ class SearchBar extends Component {
     }
     sendSearch() {
         this.props.history.push("/api/searchResults")
-        console.log(this.state.search)
-
     }
     render() {
         return (

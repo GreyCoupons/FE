@@ -13,15 +13,12 @@ import SplashImg from "../splashImg"
 import Style from "./style";
 
 class DealofDay extends Component {
-    querySearch(item) {
-        console.log(item)
-    }
     render() {
         return (
             <Style className="page search">
                 <div className="main fadeIn">
                     <SplashImg />
-                    <SearchBar querySearch={this.querySearch} />
+                    <SearchBar />
                     <FeaturedProducts />
                 </div>
             </Style>

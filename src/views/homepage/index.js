@@ -24,7 +24,6 @@ class Homepage extends React.Component {
                             <Featured view={view} />
                             : <Explore view={view} />}
                     </div>
-                    {/* <NewestCodes /> */}
                 </div>
             </Style>
         )
