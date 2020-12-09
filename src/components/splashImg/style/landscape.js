@@ -3,7 +3,6 @@ export default `
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 50px;
     }
     .yellowBar {
         position: absolute;

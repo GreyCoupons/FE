@@ -11,25 +11,25 @@ import Logo from "../../../assets/common/GCLogo.svg";
 import Style from "./style";
 
 class TopNavbar extends Component {
-	render() {
-		return (
-			<Style className="page navbar">
-				<div className="navbar-container">
-					<NavLink to="/" className="left-container">
-						<img src={Logo} alt="Grey Coupons" className="logo" />
-					</NavLink>
-					<div className="right-container">
-						<NavLink
-							to="/app-main/about-us"
-							className="aboutUs"
-						>
-							About Us
+    render() {
+        return (
+            <Style className="page navbar">
+                <div className="navbar-container">
+                    <NavLink to="/" className="left-container">
+                        <img src={Logo} alt="Grey Coupons" className="logo" />
+                    </NavLink>
+                    <div className="right-container">
+                        <NavLink
+                            to="/aboutus"
+                            className="aboutUs"
+                        >
+                            About Us
 						</NavLink>
-					</div>
-				</div>
-			</Style>
-		);
-	}
+                    </div>
+                </div>
+            </Style>
+        );
+    }
 }
 
 export default TopNavbar;

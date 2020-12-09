@@ -9,6 +9,7 @@ import BottomNavbar from "../components/navbar/bottom-navbar";
 // pages
 import Homepage from "../views/homepage";
 import SearchResults from "../views/searchResultsPage"
+import AboutUs from "../views/AboutUs"
 
 class Navigation extends React.Component {
     constructor(props) {
@@ -35,6 +36,7 @@ class Navigation extends React.Component {
                             )}
                         />
                         <Route path='/api/searchResults' exact component={SearchResults} />
+                        <Route path='/aboutus' exact component={AboutUs} />
                     </Switch>
                 </div>
                 <BottomNavbar toggleView={this.toggleView} view={this.state.view} />

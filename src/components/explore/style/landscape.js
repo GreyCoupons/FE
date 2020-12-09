@@ -55,12 +55,9 @@ export default `
         border-bottom: 2px solid #30313F;
     }
     .imgContainer {
-        width: 554px;
-        height: 440px;
         display: flex;
         justify-content: center;
         align-items: flex-start;
-
         border-radius: 10px;
         display: flex;
         justify-content: center;

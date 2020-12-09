@@ -54,10 +54,10 @@ class Explore extends Component {
         return (
             <Style className="page search">
                 <div className="main fadeIn">
-                    <SearchBar />
                     <div className="header">
                         <p className="title">Explore</p>
                     </div>
+                    <SearchBar />
                     <FeaturedProducts displayProducts={displayProducts} />
                 </div>
             </Style>

@@ -16,9 +16,9 @@ class Homepage extends React.Component {
         return (
             <Style className="page homepage">
                 <div className="homepage-container">
-                    <div className="viewheight">
+                    {/* <div className="viewheight">
                         <DealofDay />
-                    </div>
+                    </div> */}
                     <div className="mobileView">
                         {view === "featured" ?
                             <Featured view={view} />

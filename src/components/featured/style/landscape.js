@@ -4,7 +4,7 @@ export default `
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 80px 0 0 0;
+        margin: 50px 0;
     }
     .row {
         display: flex;
@@ -55,12 +55,9 @@ export default `
         border-bottom: 2px solid #30313F;
     }
     .imgContainer {
-        width: 554px;
-        height: 440px;
         display: flex;
         justify-content: center;
         align-items: flex-start;
-
         border-radius: 10px;
         display: flex;
         justify-content: center;

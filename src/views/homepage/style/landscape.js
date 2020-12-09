@@ -4,7 +4,7 @@ export default `
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
     .viewheight {
@@ -15,6 +15,6 @@ export default `
         width: 90%;
     }
     .mobileView {
-        display: none;
+        display: flex;
     }
 `;
