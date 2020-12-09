@@ -1,23 +1,20 @@
 export default `
-    .main {
+    .searchMain {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-    // .main:hover {
-    //     box-shadow: 0 3px 5px rgba(0,0,0,0.25), 0 3px 3px rgba(0,0,0,0.22);
-    //     transition:  all 0.3s cubic-bezier(.25,.8,.25,1);
-    // }
     input{
         display: flex;
         justify-content: center;
         align-items: center;
         box-shadow: 0 1px 3px rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.24);
         transition: all 0.3s ease;
-        height: 40px;
-        width: 80%;
+        height: 38px;
+        width: 70%;
         margin:  35px 0;
-        border-radius: 55px;
+        border-radius: 55px 0 0 55px;
         padding: 0 0 0 15px;
     }
 
@@ -26,7 +23,6 @@ export default `
         transition: all 0.3s ease;
         box-shadow: 0 4px 6px grey;
     }
-
 
     .iconContainer {
         border-left: none;
@@ -37,7 +33,7 @@ export default `
         cursor: default;
         font-size: 14px;
         font-weight: bold;
-        width: 85px;
+        width: 50px;
         height: 42.5px;
         display: flex;
         justify-content: center;
