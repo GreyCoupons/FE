@@ -1,6 +1,6 @@
 //imports
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 //assets
 import Logo from "../../../assets/common/GCLogo.svg";
 import Heart from "../../../assets/homepage/heart.svg";
@@ -16,15 +16,19 @@ import WhiteCompass from "../../../assets/homepage/whiteCompass.svg";
 import Style from "./style";
 
 class MobileDashboard extends Component {
-    toggleNav() { }
+    toggleNav(toggle) {
+        this.props.history.push("/")
+        this.props.toggleView(toggle)
+    }
     render() {
         let { Featured, Explore } = this.props.toggled;
+
         let { view } = this.props;
         return (
             <Style className="page navbar">
                 <div className="dashboardContainer">
                     <div className={this.props.view === "featured" ? "selected" : "navContainer"}
-                        onClick={() => this.props.toggleView("featured")}>
+                        onClick={() => this.toggleNav("featured")}>
                         <img src={this.props.view === "featured" ? WhitePepper : Pepper} alt="pepper" />
                         <p className={this.props.view === "featured" ? "whiteText" : "dashboardText"}>
                             Featured{" "}
@@ -32,7 +36,7 @@ class MobileDashboard extends Component {
                     </div>
                     <div
                         className={this.props.view === "explore" ? "selected" : "navContainer"}
-                        onClick={() => this.props.toggleView("explore")}
+                        onClick={() => this.toggleNav("explore")}
                     >
                         <img src={this.props.view === "explore" ? WhiteCompass : compass} alt="compass" />
                         <p className={this.props.view === "explore" ? "whiteText" : "dashboardText"}>Explore</p>
@@ -43,4 +47,4 @@ class MobileDashboard extends Component {
     }
 }
 
-export default MobileDashboard;
+export default withRouter(MobileDashboard);
