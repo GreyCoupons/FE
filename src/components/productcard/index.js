@@ -9,6 +9,50 @@ import SearchIcon from "../../assets/common/search.svg";
 //style
 import Style from "./style";
 
+
+
+let displayProducts = [
+    {
+        product: "iPhone Lighting Cable",
+        percent: "74%",
+        discountPrice: "$7.99",
+        ogPrice: "$20.00",
+        link: "https://amzn.to/34swNpO",
+        category: "Electronics",
+        image:
+            "https://images-na.ssl-images-amazon.com/images/I/91o%2Bd8IiKHL._SL1500_.jpg",
+    },
+    {
+        product: "Boots!",
+        percent: "55%",
+        discountPrice: "$30.00",
+        ogPrice: "$70.00",
+        link: "https://amzn.to/2TOHk8A",
+        category: "Clothing & Shoes",
+        image: "https://m.media-amazon.com/images/I/41aIdanahmL._SR400,400_.jpg",
+    },
+    {
+        product: "Boots!",
+        percent: "55%",
+        discountPrice: "$30.00",
+        ogPrice: "$70.00",
+        link: "https://amzn.to/2TOHk8A",
+        category: "Clothing & Shoes",
+        image: "https://m.media-amazon.com/images/I/41aIdanahmL._SR400,400_.jpg",
+    },
+    {
+        product: "Boots!",
+        percent: "55%",
+        discountPrice: "$30.00",
+        ogPrice: "$70.00",
+        link: "https://amzn.to/2TOHk8A",
+        category: "Clothing & Shoes",
+        image: "https://m.media-amazon.com/images/I/41aIdanahmL._SR400,400_.jpg",
+    },
+];
+
+
+
 class CategoryBox extends Component {
     state = { color: "" };
     componentDidMount() {

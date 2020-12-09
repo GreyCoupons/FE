@@ -1,7 +1,6 @@
 // imports
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import createHistory from 'history/createBrowserHistory'
 
 //components
 import TopNavbar from "../components/navbar/top-navbar";
@@ -10,8 +9,6 @@ import BottomNavbar from "../components/navbar/bottom-navbar";
 // pages
 import Homepage from "../views/homepage";
 import SearchResults from "../views/searchResultsPage"
-
-const history = createHistory()
 
 class Navigation extends React.Component {
     constructor(props) {
@@ -24,6 +21,7 @@ class Navigation extends React.Component {
     toggleView = (toggleView) => {
         this.setState({ view: toggleView })
     }
+
     render() {
         return (
             <Router>
@@ -37,7 +35,6 @@ class Navigation extends React.Component {
                             )}
                         />
                         <Route path='/api/searchResults' exact component={SearchResults} />
-                        {/* <Route path="/app-main/about-us" exact component={AboutUs} /> */}
                     </Switch>
                 </div>
                 <BottomNavbar toggleView={this.toggleView} view={this.state.view} />

@@ -17,7 +17,7 @@ class SearchBar extends Component {
         this.setState({ ...this.state, search: e.target.value })
     }
     sendSearch() {
-        this.props.history.push("/api/searchResults")
+        this.props.history.push('/api/searchResults', { query: this.state.search })
     }
     render() {
         return (
