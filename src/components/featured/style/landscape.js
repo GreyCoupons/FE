@@ -4,7 +4,6 @@ export default `
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 40px 0;
     }
     .row {
         display: flex;
