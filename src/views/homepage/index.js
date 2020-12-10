@@ -15,16 +15,18 @@ class Homepage extends React.Component {
         let { view } = this.props
         return (
             <Style className="page homepage">
-                <div className="homepage-container">
-                    {/* <div className="viewheight">
+                <header>
+                    <div className="homepage-container">
+                        {/* <div className="viewheight">
                         <DealofDay />
                     </div> */}
-                    <div className="mobileView">
-                        {view === "featured" ?
-                            <Featured view={view} />
-                            : <Explore view={view} />}
+                        <div className="mobileView">
+                            {view === "featured" ?
+                                <Featured view={view} />
+                                : <Explore view={view} />}
+                        </div>
                     </div>
-                </div>
+                </header>
             </Style>
         )
     }

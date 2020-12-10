@@ -34,13 +34,13 @@ class CategoryBox extends Component {
         return (
             <Style className="page categorybox">
                 <div className={` box`}>
-                    <a href={link} target="_blank" className="linkRedirect">
+                    <a href={link} rel="noopener" target="_blank" className="linkRedirect">
                         {/* <div className={`${color}`}>
 							{" "}
 							<p>{category}</p>{" "}
 						</div> */}
                         <div className="imgContainer">
-                            <img src={image} className="productImg" />
+                            <img src={image} className="productImg" alt={`product: ${product}`} />
                         </div>
                         <div className="bottomContainer">
                             <div className="titleContainer">

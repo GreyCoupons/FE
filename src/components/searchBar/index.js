@@ -26,10 +26,12 @@ class SearchBar extends Component {
         return (
             <Style className="page search" style={{ width: "100%" }}>
                 <div id="searchBarID" className="searchMain">
-                    <input type="text" OnTouchStart={this.moveDoc.bind(this)} onClick={this.moveDoc.bind(this)} onChange={this.toggleSearch.bind(this)} placeholder="Search by product name or category" />
-                    <div className="iconContainer" onClick={this.sendSearch.bind(this)}>
-                        <img src={SearchIcon} alt="search" />
-                    </div>
+                    <label for="searchBar" style={{ display: "flex", flexDirection: "row", alignItems: "center", width: "100%", justifyContent: "center" }}>
+                        <input id="searchBar" type="text" OnTouchStart={this.moveDoc.bind(this)} onClick={this.moveDoc.bind(this)} onChange={this.toggleSearch.bind(this)} placeholder="Search by product name or category" />
+                        <div className="iconContainer" onClick={this.sendSearch.bind(this)}>
+                            <img src={SearchIcon} alt="search" />
+                        </div>
+                    </label>
                 </div>
             </Style>
         );

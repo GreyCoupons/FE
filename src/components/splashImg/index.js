@@ -21,7 +21,7 @@ class SplashImg extends Component {
             <Style className="page splash">
                 <div className="mainContainer">
                     {window.screen.width >= 760 ? <div className="yellowBar" /> : null}
-                    <img src={gc_mode} className="splash" onClick={executeScroll} />
+                    <img src={gc_mode} className="splash" onClick={executeScroll} alt="hand picked coupons" />
                 </div>
             </Style>
         );
