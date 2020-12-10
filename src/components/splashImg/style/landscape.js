@@ -25,6 +25,8 @@ export default `
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
         @media(min-width: 750px){
             margin: 40px 0;
+            width: 100%;
+            border-radius: 0px;
         }
     }
 `;
