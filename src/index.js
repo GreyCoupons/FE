@@ -8,11 +8,11 @@ import Router from "./router";
 import GlobalStyle from "./style/global";
 
 ReactDOM.render(
-	<React.StrictMode>
-		<GlobalStyle />
-		<Router />
-	</React.StrictMode>,
-	document.getElementById("root")
+    <React.StrictMode>
+        <GlobalStyle />
+        <Router />
+    </React.StrictMode>,
+    document.getElementById("root")
 );
 
 serviceWorker.unregister();

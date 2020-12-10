@@ -81,6 +81,7 @@ export default `
     .productImg {
         // position: absolute;
         width: 60%;
+        height: auto;
     }
     .titleContainer {
         display: flex;

@@ -1,5 +1,6 @@
 //imports
 import React, { Component } from "react";
+import sharp from "sharp";
 
 //assets
 import SearchIcon from "../../assets/common/search.svg";
@@ -31,8 +32,10 @@ class CategoryBox extends Component {
             ogPrice,
         } = this.props.product;
         let { color } = this.state;
+
+
         return (
-            <Style className="page categorybox">
+            <Style className="page categorybox" >
                 <div className={` box`}>
                     <a href={link} rel="noopener" target="_blank" className="linkRedirect">
                         {/* <div className={`${color}`}>
