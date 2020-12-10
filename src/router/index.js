@@ -39,7 +39,7 @@ class Navigation extends React.Component {
                         <Route path='/aboutus' exact component={AboutUs} />
                     </Switch>
                 </div>
-                <BottomNavbar toggleView={this.toggleView} view={this.state.view} />
+                <BottomNavbar style={{ position: "relative" }} toggleView={this.toggleView} view={this.state.view} />
             </Router>
         )
     }

@@ -33,6 +33,7 @@ export default `
         justify-content: space-around;
         width: 100%;
         height: 100%;
+        position: absolute;
         cursor: pointer;
     }
     .dashboardText {
