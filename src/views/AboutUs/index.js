@@ -14,7 +14,12 @@ class SearchResults extends React.Component {
         return (
             <Style className="page homepage">
                 <div className="aboutusContainer">
-                    <p className="text">We are </p>
+                    <div className="textBox">
+                        <p className="text">We are three developers whose goal is to build ways to solve common problems, and help people by building apps like this.</p>
+                    </div>
+                    <div className="textBox">
+                        <p className="text">For inquiries: <a href="mailto:greycouponsteam@gmail.com">greycouponsteam@gmail.com</a>   </p>
+                    </div>
                 </div>
             </Style>
         )

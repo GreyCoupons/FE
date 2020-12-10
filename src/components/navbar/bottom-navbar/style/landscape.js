@@ -33,6 +33,7 @@ export default `
         height: 100%;
         cursor: pointer;
         position: absolute;
+        bottom: 0;
     }
     .dashboardText {
         font-style: normal;

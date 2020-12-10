@@ -20,12 +20,22 @@ export default `
     .viewheight {
         display: none;
     }
+    .textBox{
+        margin: 15px 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
     .aboutusContainer {
         background: #FFFFFF;
         box-shadow: 0px 3px 15px #E1E9F1;
         border-radius: 10px;
         padding: 25px;
         margin: 35px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
     .text {
         font-family: Raleway;
