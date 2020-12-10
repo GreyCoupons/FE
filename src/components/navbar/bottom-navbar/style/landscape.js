@@ -32,7 +32,7 @@ export default `
         width: 100%;
         height: 100%;
         cursor: pointer;
-        position: absolute;
+        position: static;
         bottom: 0;
     }
     .dashboardText {
