@@ -19,11 +19,14 @@ class SearchBar extends Component {
     sendSearch() {
         this.props.history.push('/api/searchResults', { query: this.state.search })
     }
+    moveDoc() {
+        document.getElementById("searchBarID").scrollIntoView({ behavior: "smooth" });
+    }
     render() {
         return (
             <Style className="page search" style={{ width: "100%" }}>
-                <div className="searchMain">
-                    <input type="text" onChange={this.toggleSearch.bind(this)} placeholder="Search by product name or category" />
+                <div id="searchBarID" className="searchMain">
+                    <input type="text" onClick={this.moveDoc.bind(this)} onChange={this.toggleSearch.bind(this)} placeholder="Search by product name or category" />
                     <div className="iconContainer" onClick={this.sendSearch.bind(this)}>
                         <img src={SearchIcon} alt="search" />
                     </div>
