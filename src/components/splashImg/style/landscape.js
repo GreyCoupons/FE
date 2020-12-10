@@ -19,9 +19,9 @@ export default `
     .splash {
         z-index: 1;
         cursor: pointer;
-        width: 86%;
+        width: 100%;
         filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.15));
-        border-radius: 34px;
+        // border-radius: 34px;
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     }
 `;

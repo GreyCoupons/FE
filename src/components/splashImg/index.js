@@ -20,7 +20,7 @@ class SplashImg extends Component {
         return (
             <Style className="page splash">
                 <div className="mainContainer">
-                    <div className="yellowBar" />
+                    {/* <div className="yellowBar" /> */}
                     <img src={gc_mode} className="splash" onClick={executeScroll} />
                 </div>
             </Style>
