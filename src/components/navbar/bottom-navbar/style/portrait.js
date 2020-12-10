@@ -6,7 +6,7 @@ export default `
         width: 100%;  
         overflow: hidden;
         position: fixed;
-        bottom: 0px;
+        bottom: 0;
         background: #FBFBFB;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
     }
@@ -15,6 +15,7 @@ export default `
         bottom: 0px;
         display: flex;
         align-items: center;
+        position: relative;
     }
     .selected {
         display: flex;
