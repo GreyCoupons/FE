@@ -23,6 +23,8 @@ export default `
         filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.15));
         border-radius: 34px;
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
-        margin: 40px 0;
+        @media(min-width: 750px){
+            margin: 40px 0;
+        }
     }
 `;
