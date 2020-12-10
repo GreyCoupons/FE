@@ -11,7 +11,6 @@ export default `
         background: #E1C972;
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
         transition: .3s ease;
-        
         @media (max-width: 1135px) {
             height: 200px;
         }    
@@ -21,6 +20,8 @@ export default `
         cursor: pointer;
         filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.15));
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+        width: 100%;
+        
         @media(min-width: 750px){
             margin: 40px 0;
             width: 86%;
