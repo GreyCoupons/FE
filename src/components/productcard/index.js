@@ -1,6 +1,5 @@
 //imports
 import React, { Component } from "react";
-import sharp from "sharp";
 
 //assets
 import SearchIcon from "../../assets/common/search.svg";
