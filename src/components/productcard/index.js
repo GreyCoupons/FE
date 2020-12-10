@@ -88,17 +88,15 @@ class CategoryBox extends Component {
                         </div>
                         <div className="bottomContainer">
                             <div className="titleContainer">
+                                <p className="productText">{product}</p>
                                 <div className="percentContainer">
-                                    <p className="productText">{product}</p>
                                     <div className="prductPriceDiv">
                                         <p className="productTextDiscounted">{discountPrice}</p>
                                         <p className="productTextogPrice">{ogPrice}</p>
                                     </div>
-                                    {/* <p className="productText">$21 - $55</p> */}
-                                </div>
-                                <div className="percentContainerEnd">
-                                    <p className="percent">{percent} </p>
-                                    <p className="off">OFF </p>
+                                    <div className="percentContainerEnd">
+                                        <p className="percent">-{percent} </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

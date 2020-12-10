@@ -1,6 +1,6 @@
 export default `
     .box {
-        width: 190px;
+        width: 192px;
         height: auto;
         border-radius: 10px;
         cursor: pointer;
@@ -84,17 +84,18 @@ export default `
     }
     .titleContainer {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         height: 100%;
-        padding: 8px 5px;
+        padding: 8px 0px;
     }
     .percentContainer {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        justify-content: space-around;
         align-items: center; 
-        width: 66%;   
+        width: 100%;   
+        padding: 6px 0 0;
     }
     .percentContainerEnd {
         display: flex;
@@ -102,7 +103,6 @@ export default `
         justify-content: flex-start;
         align-items: center; 
         width: 20%;   
-        padding-top: 10px;
     }
     .text {
         font-family: Ubuntu;
@@ -123,9 +123,9 @@ export default `
         color: #FBFBFB;
         width: 100%;
         padding: 5px 0 5px 5px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        // white-space: nowrap;
+        // overflow: hidden;
+        // text-overflow: ellipsis;
     }
     .percent {
         display: flex;
