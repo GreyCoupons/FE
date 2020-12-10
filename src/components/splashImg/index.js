@@ -11,10 +11,8 @@ import Style from "./style";
 import { withRouter } from "react-router-dom";
 
 const executeScroll = () => {
-    window.scrollTo({
-        top: 250,
-        behavior: "smooth",
-    });
+    document.getElementById("featuredSection").scrollIntoView({ alignTo: true, behavior: "smooth", block: "start" });
+
 };
 
 class SplashImg extends Component {

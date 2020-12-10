@@ -61,7 +61,9 @@ class DealofDay extends Component {
                 <div className="main fadeIn">
                     <SplashImg />
                     <SearchBar />
-                    <FeaturedProducts displayProducts={displayProducts} />
+                    <div id="featuredSection">
+                        <FeaturedProducts displayProducts={displayProducts} />
+                    </div>
                 </div>
             </Style>
         );
