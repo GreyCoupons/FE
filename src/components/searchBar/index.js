@@ -26,7 +26,7 @@ class SearchBar extends Component {
         return (
             <Style className="page search" style={{ width: "100%" }}>
                 <div id="searchBarID" className="searchMain">
-                    <input type="text" onClick={this.moveDoc.bind(this)} onChange={this.toggleSearch.bind(this)} placeholder="Search by product name or category" />
+                    <input type="text" OnTouchStart={this.moveDoc.bind(this)} onClick={this.moveDoc.bind(this)} onChange={this.toggleSearch.bind(this)} placeholder="Search by product name or category" />
                     <div className="iconContainer" onClick={this.sendSearch.bind(this)}>
                         <img src={SearchIcon} alt="search" />
                     </div>
