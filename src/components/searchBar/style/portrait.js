@@ -22,8 +22,16 @@ export default `
         // border-color: #E1C972;
         transition: all 0.3s ease;
         box-shadow: 0 4px 6px grey;
+        window.scrollTo(0, 0);
+        document.body.scrollTop = 0;
     }
-
+    .move {
+        position: absolute;
+        z-index: 66;
+        background: white;
+        width: 100%;
+        transition: .3s ease;
+    }
     .iconContainer {
         border-left: none;
         border-radius: 0 50px 50px 0;

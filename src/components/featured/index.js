@@ -15,7 +15,7 @@ import Style from "./style";
 
 let displayProducts = [
     {
-        product: "iPhone Lighting Cable",
+        product: "iPhone Lighting Cable and something long by hasbro",
         percent: "74%",
         discountPrice: "$7.99",
         ogPrice: "$20.00",

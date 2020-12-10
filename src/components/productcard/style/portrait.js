@@ -109,7 +109,6 @@ export default `
         font-style: normal;
         font-weight: 500;
         font-size: 13px;
-        line-height: 14px;
         letter-spacing: 0.05em;
         color: #FBFBFB;
     }
@@ -118,7 +117,6 @@ export default `
         font-style: normal;
         font-weight: 500;
         font-size: 16.5px;
-        line-height: 14px;
         letter-spacing: 0.05em;
         color: #FBFBFB;
         width: 100%;
