@@ -20,7 +20,7 @@ class SearchBar extends Component {
         this.props.history.push('/api/searchResults', { query: this.state.search })
     }
     moveDoc() {
-        document.getElementById("searchBarID").scrollIntoView({ alignTo: true, behavior: "smooth" });
+        document.getElementById("searchBarID").scrollIntoView({ alignTo: true, behavior: "smooth", block: "start" });
     }
     render() {
         return (
