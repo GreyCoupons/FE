@@ -19,14 +19,12 @@ export default `
     .splash {
         z-index: 1;
         cursor: pointer;
-        width: 86%;
         filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.15));
-        border-radius: 34px;
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
         @media(min-width: 750px){
             margin: 40px 0;
-            width: 100%;
-            border-radius: 0px;
+            width: 86%;
+            border-radius: 34px;
         }
     }
 `;
