@@ -31,8 +31,7 @@ class CategoryBox extends Component {
 			price,
 		} = this.props.product
 
-		let percent = (discount / price) * 100
-		percent = 100 - Math.round(percent)
+		let percent = 100 - Math.round((discount / price) * 100)
 
 		return (
 			<Style className="page categorybox">
