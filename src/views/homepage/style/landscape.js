@@ -16,5 +16,6 @@ export default `
     }
     .mobileView {
         display: flex;
+        width: 100%;
     }
-`;
+`

@@ -21,7 +21,6 @@ class CategoryBox extends Component {
 		}
 	}
 	render() {
-		console.log(this.props.product)
 		let {
 			title,
 			link,

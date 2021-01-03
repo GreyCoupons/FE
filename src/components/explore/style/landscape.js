@@ -1,5 +1,6 @@
 export default `
     .main {
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -29,6 +30,14 @@ export default `
         display: flex;
         justify-content: flex-start;
         // margin: 0px 0 20px;
+    }
+    .header {
+        width: 100%;
+        display: flex;
+        margin: 25px 0 0 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .title2 {
         font-family: Ubuntu;
