@@ -4,7 +4,7 @@ export default `
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 80px 0 0 0;
+        margin: 80px 0 30px;
     }
     .row {
         display: flex;
@@ -200,4 +200,4 @@ export default `
 
         color: #30313F;
     }
-`;
+`
