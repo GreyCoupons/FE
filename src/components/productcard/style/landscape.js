@@ -18,6 +18,15 @@ export default `
     .box:hover {
         transform: scale(1.05);
     }
+    .vendorIcon {
+        position: absolute;
+        background: white;
+        width: 40px;
+        border-radius: 25px;
+        right: 10px;
+        top: 0px;
+        border: solid 1px gray;
+    }
     .linkRedirect {
         display: flex;
         flex-direction: column;
@@ -190,4 +199,4 @@ export default `
         display: flex;
         justify-content: flex-start;
     }
-`;
+`

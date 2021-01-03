@@ -63,6 +63,15 @@ export default `
         color: #FBFBFB;
         z-index: 1;
     }
+    .vendorIcon {
+        position: absolute;
+        background: white;
+        width: 40px;
+        border-radius: 25px;
+        right: 10px;
+        top: 0px;
+        border: solid 1px gray;
+    }
     .bottomContainer {
         // width: 288px;
         // height: 60px;
@@ -188,4 +197,4 @@ export default `
         display: flex;
         justify-content: flex-start;
     }
-`;
+`

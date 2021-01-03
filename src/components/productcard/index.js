@@ -2,7 +2,7 @@
 import React, { Component } from "react"
 
 //assets
-import SearchIcon from "../../assets/common/search.svg"
+import VendorIcon from "../../assets/common/AmazonIcon.png"
 //modules
 //components
 
@@ -47,6 +47,7 @@ class CategoryBox extends Component {
 							<p>{category}</p>{" "}
 						</div> */}
 						<div className="imgContainer">
+							<img src={VendorIcon} className="vendorIcon" alt="Amazon Icon" />
 							<img
 								src={imageAddress}
 								className="productImg"
