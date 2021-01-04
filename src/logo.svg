@@ -1,14 +1,1 @@
-<?xml version="1.0" standalone="no" ?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="400.000000pt" height="400.000000pt" viewBox="0 0 400.000000 400.000000" preserveAspectRatio="xMidYMid meet">
-
-    <g transform="translate(0.000000,400.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
-        <path d="M1447 2935 c-174 -33 -316 -108 -453 -238 -222 -212 -325 -490 -294
--799 51 -502 422 -859 893 -859 181 1 320 51 461 167 l66 54 0 -105 0 -105
-150 0 150 0 0 485 0 485 -340 0 -340 0 0 -135 0 -135 190 0 190 0 0 -67 0 -68
--63 -60 c-128 -122 -253 -182 -402 -192 -158 -11 -293 42 -410 161 -236 239
--243 677 -16 928 70 77 152 131 235 153 80 22 235 17 317 -10 107 -34 204
--114 289 -235 15 -22 16 -21 140 70 69 50 129 95 134 100 10 10 -28 80 -77
-138 -97 116 -279 227 -422 257 -106 23 -305 28 -398 10z" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><image width="400" height="400" xlink:href="./logo.png"/></g></g></svg>

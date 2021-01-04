@@ -68,9 +68,6 @@ class DealofDay extends Component {
 			})
 	}
 	render() {
-		// this.state.featuredCoupons.map((coupon) => {
-		// 	console.log(coupon)
-		// })
 		return (
 			<Style className="page search">
 				<div className="main fadeIn">
