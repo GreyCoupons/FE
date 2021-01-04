@@ -1,7 +1,9 @@
 //imports
 import React, { Component } from "react"
 import axios from "axios"
+import Lottie from "react-lottie"
 //assets
+import Loading from "../../assets/lottie/GC-Rocket1.json"
 //modules
 //components
 import FeaturedProducts from "../DisplayCards"
@@ -66,13 +68,18 @@ class Explore extends Component {
 	}
 
 	render() {
+		const defaultOptions = {
+			loop: true,
+			autoplay: true,
+			animationData: Loading,
+		}
 		let { exploreCoupons } = this.state
 		return (
 			<Style className="page search">
 				<div className="main fadeIn">
 					<p className="title">Explore</p>
 					{exploreCoupons.length === 0 ? (
-						<div>Loading...</div>
+						<Lottie options={defaultOptions} height={300} width={300} />
 					) : (
 						<div className="header">
 							<SearchBar />

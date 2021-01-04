@@ -1,8 +1,9 @@
 //imports
 import React, { Component } from "react"
 import axios from "axios"
+import Lottie from "react-lottie"
 //assets
-import Splash from "../../assets/homepage/gc_mode.svg"
+import Loading from "../../assets/lottie/GC-Rocket1.json"
 //modules
 //components
 import FeaturedProducts from "../DisplayCards"
@@ -57,22 +58,27 @@ class DealofDay extends Component {
 		featuredCoupons: [],
 	}
 	async componentDidMount() {
-		await axios
-			.post("https://greycoupon-test.herokuapp.com/get/featured")
-			.then((coupons) => {
-				this.setState({ featuredCoupons: coupons.data })
-			})
-			.catch((error) => {
-				// handle error
-				console.log(error)
-			})
+		// await axios
+		// 	.post("https://greycoupon-test.herokuapp.com/get/featured")
+		// 	.then((coupons) => {
+		// 		this.setState({ featuredCoupons: coupons.data })
+		// 	})
+		// 	.catch((error) => {
+		// 		// handle error
+		// 		console.log(error)
+		// 	})
 	}
 	render() {
+		const defaultOptions = {
+			loop: true,
+			autoplay: true,
+			animationData: Loading,
+		}
 		return (
 			<Style className="page search">
 				<div className="main fadeIn">
 					{this.state.featuredCoupons.length === 0 ? (
-						<div>Loading...</div>
+						<Lottie options={defaultOptions} height={300} width={300} />
 					) : (
 						<>
 							<SplashImg />
