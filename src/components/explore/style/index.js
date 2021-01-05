@@ -10,4 +10,14 @@ export default Styled.nav`
     @media (orientation: portrait) {
         ${portrait}
     }
+    .shoppingCart {
+        margin: 0 15px;
+        width: 40px;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 `;
