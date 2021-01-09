@@ -12,9 +12,13 @@ import ProductCard from "../productcard"
 import Style from "./style"
 
 class DisplayCards extends Component {
-	state = {
-		loadMore: "",
+	constructor(props) {
+		super(props)
+		this.state = {
+			loadMore: "",
+		}
 	}
+
 	render() {
 		let { displayProducts } = this.props
 		displayProducts.length === 0
