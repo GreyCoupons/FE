@@ -167,6 +167,7 @@ export default `
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        align-items: center;
         padding: 5px;
         width: 100%;
     }
@@ -174,8 +175,8 @@ export default `
         font-family: Ubuntu;
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
-        letter-spacing: 0.05em;
+        font-size: 17px;
+        // letter-spacing: 0.05em;
         width: 100%;
         text-decoration-line: line-through;
         color: white;
@@ -189,9 +190,9 @@ export default `
         font-family: Ubuntu;
         font-style: normal;
         font-weight: 500;
-        font-size: 17px;
+        font-size: 20px;
         line-height: 14px;
-        letter-spacing: 0.05em;
+        // letter-spacing: 0.05em;
         padding-right: 5px;
         color: #ffe78f;
         display: flex;
