@@ -9,7 +9,6 @@ import Star from "../../assets/icons/star.svg"
 import FeaturedProducts from "../DisplayCards"
 import SearchBar from "../searchBar"
 import SplashImg from "../splashImg"
-import FeaturedItems from "../FeaturedItems"
 import Loading from "../Loading"
 //style
 import Style from "./style"
@@ -32,27 +31,7 @@ class DealofDay extends Component {
 	render() {
 		return (
 			<Style className="page search">
-				<div className="main">
-					{this.state.featuredCoupons.length === 0 ? (
-						<Loading />
-					) : (
-						<>
-							<div className="row">
-								<img src={Star} alt="star" className="star" />
-								<p className="title">Featured</p>
-								<img src={Star} alt="star" className="star" />
-							</div>
-							{/* <FeaturedItems /> */}
-							{/* <SplashImg /> */}
-							<SearchBar />
-							<div id="featuredSection">
-								<FeaturedProducts
-									displayProducts={this.state.featuredCoupons}
-								/>
-							</div>
-						</>
-					)}
-				</div>
+				<div className="main"></div>
 			</Style>
 		)
 	}
