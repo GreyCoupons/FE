@@ -4,6 +4,8 @@ import axios from "axios"
 import Lottie from "react-lottie"
 //assets
 import Star from "../../assets/icons/star.svg"
+import UniDog from "../../assets/lottie/uni-dog.json"
+
 //modules
 //components
 import FeaturedProducts from "../DisplayCards"
@@ -30,6 +32,11 @@ class DealofDay extends Component {
 			})
 	}
 	render() {
+		const defaultOptions = {
+			loop: false,
+			autoplay: true,
+			animationData: UniDog,
+		}
 		return (
 			<Style className="page search">
 				<div className="main">
@@ -37,6 +44,7 @@ class DealofDay extends Component {
 						<Loading />
 					) : (
 						<>
+							<Lottie options={defaultOptions} height={200} width={200} />
 							<div className="row">
 								<img src={Star} alt="star" className="star" />
 								<p className="title">Featured</p>

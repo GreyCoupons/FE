@@ -43,6 +43,12 @@ class Explore extends Component {
 					) : (
 						<div className="header">
 							<div className="row">
+								<img
+									src={shoppingCart}
+									alt="shopping Cart"
+									className="shoppingCart"
+									style={{ margin: "0 29px 0 15px" }}
+								/>
 								<p className="title">Explore</p>
 								<img
 									src={shoppingCart}
