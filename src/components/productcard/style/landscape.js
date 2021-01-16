@@ -132,7 +132,7 @@ export default `
         letter-spacing: 0.05em;
         color: #FBFBFB;
         width: 100%;
-        padding: 5px 0 5px 5px;
+        padding: 10px 5px;
         // white-space: nowrap;
         // overflow: hidden;
         // text-overflow: ellipsis;
@@ -165,10 +165,10 @@ export default `
         letter-spacing: 0.05em;
         color: white;
     }
-.prductPriceDiv {
+    .prductPriceDiv {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
         padding: 5px;
         width: 100%;
@@ -177,9 +177,9 @@ export default `
         font-family: Ubuntu;
         font-style: normal;
         font-weight: 500;
-        font-size: 17px;
+        font-size: 20px;
         // letter-spacing: 0.05em;
-        width: 100%;
+        // width: 100%;
         text-decoration-line: line-through;
         color: white;
         display: flex;

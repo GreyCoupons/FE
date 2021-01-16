@@ -1,6 +1,6 @@
 //imports
 import React, { Component } from "react"
-
+import Ratings from "./rating"
 //assets
 import VendorIcon from "../../assets/common/AmazonIcon.png"
 //modules
@@ -28,6 +28,7 @@ class CategoryBox extends Component {
 			imageAddress,
 			discount,
 			price,
+			rating,
 		} = this.props.product
 
 		let percent = 100 - Math.round((discount / price) * 100)
@@ -61,9 +62,12 @@ class CategoryBox extends Component {
 										<p className="productTextDiscounted">${discount}</p>
 										<p className="productTextogPrice">${price}</p>
 									</div>
-									<div className="percentContainerEnd">
-										<p className="percent">-{percent}% </p>
-									</div>
+								</div>
+								<div className="row">
+									{/* <div className="percentContainerEnd"> */}
+									<p className="percent">-{percent}% </p>
+									{/* </div> */}
+									<Ratings rating={rating} />
 								</div>
 							</div>
 						</div>
