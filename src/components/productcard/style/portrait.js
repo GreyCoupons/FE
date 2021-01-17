@@ -1,6 +1,6 @@
 export default `
     .box {
-        width: 192px;
+        width: 185px;
         height: auto;
         border-radius: 10px;
         cursor: pointer;

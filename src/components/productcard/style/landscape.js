@@ -87,7 +87,7 @@ export default `
     }
     .productImg {
         // position: absolute;
-        width: 60%;
+        width: 74% !important;
         height: auto;
     }
     .titleContainer {
