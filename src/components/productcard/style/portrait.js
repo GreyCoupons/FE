@@ -80,8 +80,6 @@ export default `
         z-index: 1;
     }
     .imgContainer {
-        width: 100%;
-        height: 40%;
         display: flex;
         padding: 10px 0;
         justify-content: center;

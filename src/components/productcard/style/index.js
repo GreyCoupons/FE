@@ -8,11 +8,23 @@ export default Styled.nav`
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+    }   
     @media (orientation: landscape) {
         ${landscape}
     }
     @media (orientation: portrait) {
         ${portrait}
+    }
+    .linkRedirect{
+        height: 100%;
+    }
+    .imgContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .box {
+        margin: 20px
     }
 `

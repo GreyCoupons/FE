@@ -35,7 +35,7 @@ class CategoryBox extends Component {
 
 		return (
 			<Style className="page categorybox">
-				<div className={` box`}>
+				<div className={` box`} style={{ height: "359px" }}>
 					<a
 						href={link}
 						rel="noopener"
