@@ -10,7 +10,7 @@ export default `
         justify-content: space-between;
         overflow: hidden;
         position: relative;
-        margin: 7px;
+        margin: 20px;
         background: white;
         filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
         padding-top: 10px;

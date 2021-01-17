@@ -22,9 +22,11 @@ export default Styled.nav`
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100%;
+        height: 63%;
     }
-    .box {
-        margin: 20px
+    .bottomContainer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }
 `
